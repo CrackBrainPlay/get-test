@@ -1,0 +1,19 @@
+@import "variables/globals";
+@import "reset";
+
+html,
+body {
+    background: var(--gray-04);
+}
+
+body {
+    // color: var(--foreground);
+    // background: var(--background);
+    // font-family: Arial, Helvetica, sans-serif;
+    // -webkit-font-smoothing: antialiased;
+    // -moz-osx-font-smoothing: grayscale;
+}
+
+* {}
+
+a {}

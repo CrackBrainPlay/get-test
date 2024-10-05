@@ -1,0 +1,112 @@
+:root {
+  --font-family-bold: "Onest-Bold", Serif;
+  --font-family-medium: "Onest-Medium", Serif;
+  --font-family-regular: "Onest-Regular", Serif;
+
+  //Desktop
+
+  --font-size-h0: 80px;
+  --font-size-h1: 32px;
+  --font-size-h2: 24px;
+  --font-size-button: 14px;
+  --font-size-body-text-1: 22px;
+  --font-size-body-text-2: 18px;
+  --font-size-body-text-3: 14px;
+
+  --line-height-h0: 110px;
+  --line-height-h1: 120px;
+  --line-height-h2: 32px;
+  --line-height-button: 24px;
+  --line-height-body-text-1: 32px;
+  --line-height-body-text-2: 22px;
+  --line-height-body-text-3: 20px;
+
+  --letter-spacing-h0: -0.04em;
+  --letter-spacing-h1: 0em;
+  --letter-spacing-h2: 0em;
+  --letter-spacing-button: -0.005em;
+  --letter-spacing-body-text-1: 0em;
+  --letter-spacing-body-text-2: 0em;
+  --letter-spacing-body-text-3: 0em;
+
+  --font-h0: var(--font-size-h0) / var(--line-height-h0) var(--font-family-bold);
+  --font-h1: var(--font-size-h1) / var(--line-height-h1) var(--font-family-bold);
+  --font-h2-regular: var(--font-size-h2) / var(--line-height-h2) var(--font-family-regular);
+  --font-h2-bold: var(--font-size-h2) / var(--line-height-h2) var(--font-family-bold);
+  --font-button: var(--font-size-button) / var(--line-height-button) var(--font-family-bold);
+  --font-body-text-1: var(--font-size-body-text-1) / var(--line-height-body-text-1) var(--font-family-regular);
+  --font-body-text-2: var(--font-size-body-text-2) / var(--line-height-body-text-2) var(--font-family-regular);
+  --font-body-text-3: var(--font-size-body-text-3) / var(--line-height-body-text-3) var(--font-family-regular);
+
+  //Tablet
+
+  --font-size-h1-tablet: 52px;
+  --font-size-h2-tablet: 28px;
+  --font-size-h3-tablet: 16px;
+  --font-size-button-tablet: 14px;
+  --font-size-body-text-1-tablet: 14px;
+  --font-size-body-text-2-tablet: 12px;
+
+  --line-height-h1-tablet: 110%;
+  --line-height-h2-tablet: 120%;
+  --line-height-button-tablet: 24px;
+  --line-height-body-text-1-tablet: 20px;
+  --line-height-body-text-2-tablet: 16px;
+
+  --letter-spacing-h1-tablet: -0.04em;
+  --letter-spacing-h2-tablet: 0em;
+  --letter-spacing-h3-tablet: 0em;
+  --letter-spacing-button-tablet: -0.005em;
+
+  --font-h1-tablet: var(--font-size-h1-tablet) / var(--line-height-h1-tablet) var(--font-family-bold);
+  --font-h2-tablet: var(--font-size-h2-tablet) / var(--line-height-h2-tablet) var(--font-family-bold);
+  --font-h3-tablet: var(--font-size-h3-tablet) var(--font-family-bold);
+  --font-button-tablet: var(--font-size-button-tablet) / var(--line-height-button-tablet) var(--font-family-medium);
+  --font-body-text-1-tablet-regular: var(--font-size-body-text-1-tablet) / var(--line-height-body-text-1-tablet) var(--font-family-regular);
+  --font-body-text-1-tablet-bold: var(--font-size-body-text-1-tablet) / var(--line-height-body-text-1-tablet) var(--font-family-bold);
+  --font-body-text-2-tablet: var(--font-size-body-text-2-tablet) / var(--line-height-body-text-2-tablet) var(--font-family-regular);
+
+  //Mobile
+
+  --font-size-h1-mobile: 36px;
+  --font-size-h2-mobile: 24px;
+  --font-size-h3-mobile: 20px;
+  --font-size-button-mobile: 14px;
+  --font-size-body-text-1-mobile: 16px;
+  --font-size-body-text-2-mobile: 14px;
+
+  --line-height-h1-mobile: 110px;
+  --line-height-button-mobile: 24px;
+
+  --letter-spacing-h1-mobile: -0.04em;
+  --letter-spacing-h2-mobile: 0em;
+  --letter-spacing-h3-mobile: 0em;
+  --letter-spacing-button-mobile: -0.005em;
+  --letter-spacing-body-text-1-mobile: 0em;
+  --letter-spacing-body-text-2-mobile: 0em;
+
+  --font-h1-mobile: var(--font-size-h1-mobile) / var(--line-height-h1-mobile) var(--font-family-bold);
+  --font-h2-mobile: var(--font-size-h2-mobile) var(--font-family-bold);
+  --font-h3-mobile: var(--font-size-h3-mobile) var(--font-family-bold);
+  --font-button-mobile: var(--font-size-button-mobile) / var(--line-height-button-mobile) var(--font-family-medium);
+  --font-body-text-1-mobile: var(--font-size-body-text-1-mobile) var(--font-family-regular);
+  --font-body-text-2-mobile: var(--font-size-body-text-2-mobile) var(--font-family-regular);
+
+  //Цвета
+
+  --white: #ffffff;
+  --gray-01: #a4adac;
+  --gray-02: #d6dbdb;
+  --gray-03: #e8edee;
+  --gray-04: #f2f6f6;
+  --black: #1d1d1b;
+  --orange: #ff5900;
+  --dark-orange: #e0570e;
+  --error: #ff4026;
+
+  //Размеры
+
+  // --navbar-height: 50px;
+  // --sidebar-width: 300px;
+  // --sidebar-width-collapsed: 80px;
+}
