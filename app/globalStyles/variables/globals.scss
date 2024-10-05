@@ -1,0 +1,56 @@
+:root {
+  --font-family-bold: "Onest-Bold", Serif;
+  --font-family-medium: "Onest-Medium", Serif;
+  --font-family-regular: "Onest-Regular", Serif;
+
+  --font-size-h0: 80px;
+  --font-size-h1: 32px;
+  --font-size-h2: 24px;
+  --font-size-button: 14px;
+  --font-size-body-text-1: 22px;
+  --font-size-body-text-2: 18px;
+  --font-size-body-text-3: 14px;
+
+  --line-height-h0: 110px;
+  --line-height-h1: 120px;
+  --line-height-h2: 32px;
+  --line-height-button: 24px;
+  --line-height-body-text-1: 32px;
+  --line-height-body-text-2: 22px;
+  --line-height-body-text-3: 20px;
+
+  --letter-spacing-h0: -0.04em;
+  --letter-spacing-h1: 0em;
+  --letter-spacing-h2: 0em;
+  --letter-spacing-button: -0.005em;
+  --letter-spacing-body-text-1: 0em;
+  --letter-spacing-body-text-2: 0em;
+  --letter-spacing-body-text-3: 0em;
+
+  --font-h0: var(--font-size-h0) / var(--line-height-h0) var(--font-family-bold);
+  --font-h1: var(--font-size-h1) / var(--line-height-h1) var(--font-family-bold);
+  --font-h2-regular: var(--font-size-h2) / var(--line-height-h2) var(--font-family-regular);
+  --font-h2-bold: var(--font-size-h2) / var(--line-height-h2) var(--font-family-bold);
+  --font-button: var(--font-size-button) / var(--line-height-button) var(--font-family-bold);
+  --font-body-text-1: var(--font-size-body-text-1) / var(--line-height-body-text-1) var(--font-family-regular);
+  --font-body-text-2: var(--font-size-body-text-2) / var(--line-height-body-text-2) var(--font-family-regular);
+  --font-body-text-3: var(--font-size-body-text-3) / var(--line-height-body-text-3) var(--font-family-regular);
+
+  //Цвета
+
+  --white: #ffffff;
+  --gray-01: #a4adac;
+  --gray-02: #d6dbdb;
+  --gray-03: #e8edee;
+  --gray-04: #f2f6f6;
+  --black: #1d1d1b;
+  --orange: #ff5900;
+  --dark-orange: #e0570e;
+  --error: #ff4026;
+
+  //Размеры
+
+  // --navbar-height: 50px;
+  // --sidebar-width: 300px;
+  // --sidebar-width-collapsed: 80px;
+}
