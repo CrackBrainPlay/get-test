@@ -1,0 +1,27 @@
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--white);
+    border-radius: 10px;
+    height: 40px;
+    width: 161px;
+
+    @media (max-width: 320px) {
+        border-radius: 7px;
+        height: 28px;
+        width: 113px;
+    }
+
+    &_text {
+        font-family: var(--font-family-bold);
+        color: var(--black);
+        font-size: 22px;
+        font-weight: 900 !important;
+        // letter-spacing: 0.77px;
+
+        @media (max-width: 320px) {
+            font-size: 15px;
+        }
+    }
+}

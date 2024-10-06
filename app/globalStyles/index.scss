@@ -1,6 +1,33 @@
 @import "variables/globals";
 @import "reset";
 
+@font-face {
+    font-display: block;
+    font-family: 'Onest-Bold';
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 200 900;
+    src: url('/fonts/Onest-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-display: block;
+    font-family: 'Onest-Medium';
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 200 900;
+    src: url('/fonts/Onest-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-display: block;
+    font-family: 'Onest-Regular';
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 200 900;
+    src: url('/fonts/Onest-Regular.ttf') format('truetype');
+}
+
 html,
 body {
     background: var(--gray-04);
