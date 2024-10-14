@@ -1,0 +1,83 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    max-width: 1160px;
+    margin: auto;
+    height: 333px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    margin-bottom: 212px;
+
+    &__box {
+        display: grid;
+        gap: 40px;
+        grid-template-columns: 1fr 1fr;
+
+        &_text_area {
+            width: 100%;
+            border-radius: 12px;
+            border: solid 1px var(--gray-01);
+            height: 216px;
+            padding-top: 14px;
+            padding-left: 18px;
+            padding-right: 18px;
+            padding-bottom: 14px;
+            font: var(--font-body-text-2);
+            color: var(--black);
+            resize: none;
+            background: var(--gray-03);
+            font-weight: 400;
+
+            &::placeholder {
+                color: var(--black);
+                opacity: 1;
+            }
+
+            &:focus {
+                border: solid 1px var(--black);
+                outline: none;
+            }
+        }
+
+        &_text {
+            font: var(--font-body-text-3);
+        }
+
+        &__right_section {
+            display: flex;
+            flex-direction: column;
+
+            &_input_fild {
+                outline: none;
+                font: var(--font-body-text-2);
+                color: var(--black);
+                background: none;
+                border: none;
+                border-bottom: solid 1px var(--gray-01);
+
+                &::placeholder {
+                    color: var(--black);
+                    opacity: 1;
+                }
+
+                &:focus {
+                    border-bottom: solid 1px var(--black);
+                    outline: none;
+                }
+            }
+
+            &_alert {
+                border-bottom: solid 1px var(--orage);
+            }
+
+            &__error {
+                position: relative;
+                font-weight: 500;
+                font-size: 10px;
+                font-family: var(--font-family-medium);
+                color: var(--error);
+            }
+        }
+    }
+}

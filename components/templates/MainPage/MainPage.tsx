@@ -1,8 +1,7 @@
-import React from 'react';
-
+import styles from "@/styles/main-page/index.module.scss";
 const MainPage = () => {
     return (
-        <main>
+        <main className={styles.main}>
             hello world
         </main>
     );

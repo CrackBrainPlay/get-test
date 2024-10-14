@@ -34,13 +34,101 @@ body {
 }
 
 body {
-    // color: var(--foreground);
-    // background: var(--background);
-    // font-family: Arial, Helvetica, sans-serif;
-    // -webkit-font-smoothing: antialiased;
-    // -moz-osx-font-smoothing: grayscale;
+    color: var(--black);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-* {}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-a {}
+a {
+    color: var(--black);
+}
+
+h1 {
+    font: var(--font-h1);
+    letter-spacing: var(--letter-spacing-h1);
+
+    @media (max-width: 768px) {
+        font: var(--font-h1-tablet);
+        letter-spacing: var(--letter-spacing-h1-tablet);
+    }
+
+    @media (max-width: 320px) {
+        font: var(--font-h1-mobile);
+        letter-spacing: var(--letter-spacing-h1-mobile);
+    }
+}
+
+h2 {
+    letter-spacing: var(--letter-spacing-h2);
+
+    @media (max-width: 768px) {
+        font: var(--font-h2-tablet);
+        letter-spacing: var(--letter-spacing-h2-tablet);
+    }
+
+    @media (max-width: 320px) {
+        font: var(--font-h2-mobile);
+        letter-spacing: var(--letter-spacing-h2-mobile);
+    }
+}
+
+h3 {
+    @media (max-width: 768px) {
+        font: var(--font-h3-tablet);
+        letter-spacing: var(--letter-spacing-h3-tablet);
+    }
+
+    @media (max-width: 320px) {
+        font: var(--font-h3-mobile);
+        letter-spacing: var(--letter-spacing-h3-mobile);
+    }
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font: var(--font-button);
+    letter-spacing: var(--letter-spacing-button);
+
+    @media (max-width: 768px) {
+        font: var(--font-button-tablet);
+        letter-spacing: var(--letter-spacing-button-tablet);
+    }
+
+    @media (max-width: 320px) {
+        font: var(--font-button-mobile);
+        letter-spacing: var(--letter-spacing-button-mobile);
+    }
+}
+
+.isDesktop {
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+.isTablet {
+    @media (min-width: 769px) {
+        display: none;
+    }
+
+    @media (max-width: 320px) {
+        display: none;
+    }
+}
+
+.isMobile {
+    @media (min-width: 321px) {
+        display: none;
+    }
+}
